@@ -2,12 +2,18 @@
 title: "abc"
 author: "Robert Hazell"
 date: "3/18/2020"
-output: 
+output:
   html_document:
     keep_md: true
+    pandoc_args: --webtex
 ---
 
 
+
+
+```r
+library(rmarkdown)
+```
 
 ## R Markdown
 
@@ -555,9 +561,7 @@ htmlwidgets::saveWidget(car_info, "car_info.html")
 ##   Read more about this attribute -> https://plot.ly/r/reference/#scatter-mode
 ```
 
-$$PredictedOriginal_{t+1} = PredictedDiff_{t+1} + Actual_t$$
-
-
+$PredictedOriginal_{t+1} = PredictedDiff_{t+1} + Actual_t$
 
 
 
