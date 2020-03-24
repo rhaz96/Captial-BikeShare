@@ -561,11 +561,11 @@ htmlwidgets::saveWidget(car_info, "car_info.html")
 ##   Read more about this attribute -> https://plot.ly/r/reference/#scatter-mode
 ```
 
-$PredictedOriginal_{t+1} = PredictedDiff_{t+1} + Actual_t$
+$$PredictedOriginal_{t+1} = PredictedDiff_{t+1} + Actual_t$$
 
 
 
-
+this is an extra sentence.  let's see if it shows up on github.
 
 
 
